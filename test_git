@@ -57,10 +57,7 @@ def get_css_path(css_file_name):
     """Return the full path of a given filename under the css dir
        (doesn't start with file:///)
     """
-    css_path = "{}/media/css/{}".format(config.PKGDATA_DIR, css_file_name)
-    if not os.path.exists(css_path):
-        css_path = None
-    return css_path
+    pass
 
 
 def get_script_path(script_file_name):
